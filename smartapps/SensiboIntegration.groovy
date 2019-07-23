@@ -88,7 +88,7 @@ def setAPIKey()
 		}
 	    	section("Logging"){
 			paragraph "Application Logging Level"
-			input(name: "logLevel", type: "enum", title: "Logging Level", options: ["NONE","DEBUG","TRACE"], defaultValue: "NONE")
+			input(name: "logLevel", type: "enum", title: "Logging Level", required:true, multiple:false, options: ["NONE","DEBUG","TRACE"], defaultValue: "NONE")
 		}
 	}
     return p
