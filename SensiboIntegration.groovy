@@ -18,7 +18,7 @@
 
 definition(
     name: "Sensibo Integration",
-    namespace: "blink",
+    namespace: "joyfulhouse",
     author: "https://community.hubitat.com/u/blink",
     description: "Connect your Sensibo Pod to Hubitat.",
     category: "Green Living",
