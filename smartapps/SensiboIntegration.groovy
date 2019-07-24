@@ -1,7 +1,7 @@
 /**
  *  Sensibo Integration for Hubitat
  *
- *  Copyright 2015 Eric Gosselin
+ *  Copyright 2019 Bryan Li
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  *  in compliance with the License. You may obtain a copy of the License at:
@@ -20,7 +20,7 @@
 definition(
     name: "Sensibo Integration",
     namespace: "joyfulhouse",
-    author: "https://community.hubitat.com/u/blink",
+    author: "Bryan Li",
     description: "Connect your Sensibo Pod to Hubitat.",
     category: "Green Living",
     iconUrl: "https://image.ibb.co/j7qAPT/Sensibo_1x.png",
