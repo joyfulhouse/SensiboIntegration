@@ -63,6 +63,24 @@ metadata {
         command "raiseTemperature"
         command "lowerTemperature"
         command "switchSwing"
+        command "modeSwing", [
+            [
+                name:"Swing Mode", type: "ENUM", description: "Pick an option", constraints: [
+                    "fixedTop",
+                    "fixedMiddleTop",
+                    "fixedMiddle",
+                    "fixedMiddleBottom",
+                    "fixedBottom",
+                    "rangeTop",
+                    "rangeMiddle",
+                    "rangeBottom",
+                    "rangeFull",
+                    "horizontal",
+                    "both",
+                    "stopped"
+                ] 
+            ]
+        ]
         command "setThermostatMode"
         command "modeHeat"
         command "modeCool"
